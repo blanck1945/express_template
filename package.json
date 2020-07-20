@@ -4,6 +4,7 @@
   "description": "backend of angular e-commerce",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kubo",
@@ -16,6 +17,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "nodemon": "^2.0.4"
   }
 }

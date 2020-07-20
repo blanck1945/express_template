@@ -1,4 +1,9 @@
 const chalk = require("chalk")
 
 const red = chalk.red
-const gree = chalk.green
+const green = chalk.green
+
+module.exports = {
+    red,
+    green
+}
